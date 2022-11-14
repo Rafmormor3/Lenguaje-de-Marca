@@ -1,0 +1,15 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<pedido>
+    <producto>
+        <nombre referencia="A2023">Bicicleta</nombre>
+    </producto>
+    <cliente>
+        <detinatario>Juan Delgado Martínez</detinatario>
+        <direccion_entrega>calle Barco 4, tercer piso, letra A</direccion_entrega>
+        <fecha_entrega>
+            <dia>19</dia>
+            <mes>5</mes>
+            <año>2000</año>
+        </fecha_entrega>
+    </cliente>
+</pedido>

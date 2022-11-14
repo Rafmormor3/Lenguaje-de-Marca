@@ -1,0 +1,103 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<tabla>
+    <empleado id="1968">
+        <Apellido>Burgos</Apellido>
+        <Nombre>Jeronimo</Nombre>
+        <Seccional>Palmira</Seccional>
+        <Facultad>Administracion</Facultad>
+        <Cargo>Administrativo</Cargo>
+        <Salario>3200.000</Salario>
+        <fecha_comienzo>05/04/1982</fecha_comienzo>
+        <fecha_nacimiento>28/09/1951</fecha_nacimiento>
+    </empleado>
+    <empleado id="1674">
+        <Apellido>Vilegas</Apellido>
+        <Nombre>Estefania</Nombre>
+        <Seccional>Palmira</Seccional>
+        <Facultad>Administracion</Facultad>
+        <Cargo>Docente</Cargo>
+        <Salario>3200.000</Salario>
+        <fecha_comienzo>25/03/1992</fecha_comienzo>
+        <fecha_nacimiento>17/01/1964</fecha_nacimiento>
+    </empleado>
+    <empleado id="1516">
+        <Apellido>Fernandez</Apellido>
+        <Nombre>Guillermo</Nombre>
+        <Seccional>Palmira</Seccional>
+        <Facultad>Administracion</Facultad>
+        <Cargo>Docente</Cargo>
+        <Salario>4500.000</Salario>
+        <fecha_comienzo>06/03/1985</fecha_comienzo>
+        <fecha_nacimiento>26/06/1963</fecha_nacimiento>
+    </empleado>
+    <empleado id="1330">
+        <Apellido>Ramirez</Apellido>
+        <Nombre>Eliana</Nombre>
+        <Seccional>Palmira</Seccional>
+        <Facultad>Administracion</Facultad>
+        <Cargo>Administrativo</Cargo>
+        <Salario>3200.000</Salario>
+        <fecha_comienzo>14/02/1989</fecha_comienzo>
+        <fecha_nacimiento>17/05/1964</fecha_nacimiento>
+    </empleado>
+    <empleado id="1657">
+        <Apellido>Carmona</Apellido>
+        <Nombre>Jose</Nombre>
+        <Seccional>Palmira</Seccional>
+        <Facultad>Administracion</Facultad>
+        <Cargo>Administrativo</Cargo>
+        <Salario>3200.000</Salario>
+        <fecha_comienzo>06/12/1987</fecha_comienzo>
+        <fecha_nacimiento>10/10/1963</fecha_nacimiento>
+    </empleado>
+    <empleado id="1573">
+        <Apellido>De santos</Apellido>
+        <Nombre>Marcela</Nombre>
+        <Seccional>Palmira</Seccional>
+        <Facultad>Administracion</Facultad>
+        <Cargo>Aux. Administrativo</Cargo>
+        <Salario>1500.000</Salario>
+        <fecha_comienzo>07/07/1988</fecha_comienzo>
+        <fecha_nacimiento>31/05/1960</fecha_nacimiento>
+    </empleado>
+    <empleado id="1658">
+        <Apellido>Franco</Apellido>
+        <Nombre>Daniela</Nombre>
+        <Seccional>Palmira</Seccional>
+        <Facultad>Administracion</Facultad>
+        <Cargo>Docente</Cargo>
+        <Salario>3200.000</Salario>
+        <fecha_comienzo>06/06/1988</fecha_comienzo>
+        <fecha_nacimiento>14/10/1963</fecha_nacimiento>
+    </empleado>
+    <empleado id="1078">
+        <Apellido>Cortes</Apellido>
+        <Nombre>Rafael</Nombre>
+        <Seccional>Palmira</Seccional>
+        <Facultad>Diseño</Facultad>
+        <Cargo>Administrativo</Cargo>
+        <Salario>4200.000</Salario>
+        <fecha_comienzo>01/04/1986</fecha_comienzo>
+        <fecha_nacimiento>21/11/1962</fecha_nacimiento>
+    </empleado>
+    <empleado id="1695">
+        <Apellido>Berrio</Apellido>
+        <Nombre>Camilo</Nombre>
+        <Seccional>Palmira</Seccional>
+        <Facultad>Diseño</Facultad>
+        <Cargo>Docente</Cargo>
+        <Salario>3200.000</Salario>
+        <fecha_comienzo>20/10/1984</fecha_comienzo>
+        <fecha_nacimiento>05/01/1960</fecha_nacimiento>
+    </empleado>
+    <empleado id="1285">
+        <Apellido>Arias</Apellido>
+        <Nombre>Francisco</Nombre>
+        <Seccional>Palmira</Seccional>
+        <Facultad>Diseño</Facultad>
+        <Cargo>Docente</Cargo>
+        <Salario>3200.000</Salario>
+        <fecha_comienzo>27/12/1984</fecha_comienzo>
+        <fecha_nacimiento>22/12/1962</fecha_nacimiento>
+    </empleado>
+</tabla>

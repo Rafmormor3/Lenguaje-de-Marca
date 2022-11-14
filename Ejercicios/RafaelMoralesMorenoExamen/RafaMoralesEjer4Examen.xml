@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- añadimos ? al final para cerrar-->
+<transporte><!-- añadimos elemento raiz-->
+    <terrestres>
+        <vehiculo>bicicleta</vehiculo><!-- cerramos la etiqueta añadiendo / a la etiqueta del final -->
+        <vehiculo>coche</vehiculo><!-- cerramos la etiqueta añadiendo / a la etiqueta del final -->
+        <vehiculo>tractor</vehiculo><!-- cerramos la etiqueta añadiendo / a la etiqueta del final -->
+    </terrestres><!-- añadimos etiqueta de cierre-->
+    <acuatico>
+        <vehiculo>canoa</vehiculo><!--cerramos la etiqueta añadiendo / a la etiqueta del final -->
+    </acuatico><!-- añadimos etiqueta de cierre-->
+    <aereo>
+        <vehiculo>avioneta</vehiculo><!-- / de cierre-->
+        <vehiculo>helicoptero</vehiculo><!-- / de cierre-->
+    </aereo><!-- añadimos etiqueta de cierre-->
+</transporte>

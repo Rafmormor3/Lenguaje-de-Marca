@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paquete>
+    <pedido>
+        <nombreProducto modelo="electrica">cortacesped
+            <receptor>Alicia Abad</receptor>
+            <direccionEnvio>
+                <ciudad>Albacete</ciudad>
+                <direccion>Plaza Duquesa 12</direccion>
+            </direccionEnvio>
+            <direccionPago>
+                <ciudad>Madrid</ciudad>
+                <direccion>General Ricardo 56</direccion>
+            </direccionPago>
+        </nombreProducto>
+        <nombreProducto>podadora
+            <cantidad>3</cantidad>
+            <direccionEnvio>
+                <ciudad>Albacete</ciudad>
+                <direccion>Plaza Duquesa 12</direccion>
+            </direccionEnvio>
+            <direccionPago>
+                <ciudad>Madrid</ciudad>
+                <direccion>General Ricardo 56</direccion>
+            </direccionPago>
+        </nombreProducto>
+        <fechaPedido>20 octubre 1999</fechaPedido>
+        <codigoPostal ciudad="Albacete">05020</codigoPostal>
+        <codigoPostal ciudad="Madrid">28055</codigoPostal>
+    </pedido>
+    <catalogo>
+        <nombre codigo="872-AA">cortadora
+            <precio>134567</precio>
+            <tipoCortadora></tipoCortadora>
+        </nombre>
+        <nombre codigo="966-FHF">podadora
+            <precio>7,99</precio>
+        </nombre>        
+    </catalogo>
+</paquete>

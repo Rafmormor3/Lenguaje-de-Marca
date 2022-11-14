@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tienda [
+    <!ELEMENT tienda (nombre+, direccion*, distribuidor*, movil+)*>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT direccion (#PCDATA)>
+    <!ELEMENT distribuidor (#PCDATA)>
+    <!ELEMENT movil (codigoModelo, marca, caracteristicas)>
+    <!ELEMENT codigoModelo (#PCDATA)>
+    <!ELEMENT marca (#PCDATA)>
+    <!ELEMENT caracteristicas (#PCDATA)>
+]>
+<tienda>
+    <nombre>Visteme<nombre>
+    <direccion>
+    <distribuidor></distribuidor>
+    <movil>
+    <codigoModelo></codigoModelo>
+        <marca>Xiaomi</marca>
+        <caracteristicas></caracteristicas>
+    </movil>
+</Tienda>

@@ -1,0 +1,9 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<bandeja_entrada>
+    <correo>
+        <remitente>Rafael Morales</remitente>
+        <destinatario>Manolo Escobar</destinatario>
+        <asunto>Carro</asunto>
+        <cuerpo>Me han robado el carro, necesito ayuda para buscarlo</cuerpo>
+    </correo>
+</bandeja_entrada>

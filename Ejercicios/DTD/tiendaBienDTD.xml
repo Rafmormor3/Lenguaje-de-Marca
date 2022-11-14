@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE lista_de_tiendas [
+    <!ELEMENT lista_de_tiendas (tienda*)>
+    <!ELEMENT tienda (nombre, direccion, distribuidor*, movil+)*>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT direccion (#PCDATA)>
+    <!ELEMENT distribuidor (#PCDATA)>
+    <!ELEMENT movil (codigoModelo, marca, caracteristicas)>
+    <!ELEMENT codigoModelo (#PCDATA)>
+    <!ELEMENT marca (#PCDATA)>
+    <!ELEMENT caracteristicas (#PCDATA)>
+]>
+<lista_de_tiendas>
+    <tienda>
+        <nombre>Visteme</nombre>
+        <direccion>Manolito el Indomable</direccion>
+        <distribuidor></distribuidor>
+        <movil>
+            <codigoModelo></codigoModelo>
+            <marca>Xiaomi</marca>
+            <caracteristicas></caracteristicas>
+        </movil>
+    </tienda>
+</lista_de_tiendas>

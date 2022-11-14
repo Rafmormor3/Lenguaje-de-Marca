@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE documento[
+    <!ELEMENT documento (facturas*)>
+    <!-- etiqueta factuta-->
+    <!ELEMENT facturas (dato_clientes, datos_ticket)>
+    <!-- etiueta de los datos del cliente-->
+    <!ELEMENT dato_clientes (DNI, nombre, apellido, apellido, telefono)>
+        <!ATTLIST dato_clientes identificador CDATA #REQUIRED>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellido (#PCDATA)>
+    <!ELEMENT DNI (#PCDATA)>
+    <!ELEMENT telefono (#PCDATA)>
+    <!-- etiqueta ticket-->
+    <!ELEMENT datos_ticket (resguardo_factura, (alquileres | compras | (alquileres, compras)))>
+    <!-- etiqueta resguardo-->
+    <!ELEMENT resguardo_factura (forma_pago, importe_total)>
+    <!ELEMENT forma_pago (#PCDATA)>
+    <!ELEMENT importe_total (#PCDATA)>
+    <!-- etiqueta alquileres-->
+    <!ELEMENT alquileres (peliculas)>
+        <!ATTLIST alquileres fecha_devolucion CDATA #REQUIRED>
+    <!-- etiqueta peliculas-->
+    <!ELEMENT peliculas (titulo, genero, duracion, actores)>
+        <!ATTLIST peliculas id_peliculas CDATA #REQUIRED>
+        <!ATTLIST peliculas valoracion CDATA #REQUIRED>
+        <!ATTLIST peliculas caratula ENTITY #IMPLIED>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT genero (#PCDATA)>
+    <!ELEMENT duracion (#PCDATA)>
+    <!ELEMENT actores (actor, actor, actor)>
+    <!--etiqueta actores -->
+    <!ELEMENT actor (nombreActor, apellido, apellido)>
+    <!ELEMENT nombreActor (#PCDATA)>
+    <!ELEMENT apellidosActor (#PCDATA)>
+    <!-- etiqueta compras-->
+    <!ELEMENT compras (DVDs | cintaVideos | (DVDs, cintaVideos))>
+    <!ELEMENT DVDs (DVD+)>
+    <!ELEMENT DVD (tituloDVD, fecha_salida, extras?)>
+    <!ELEMENT tituloDVD (#PCDATA)>
+    <!ELEMENT fecha_salida (#PCDATA)>
+    <!ELEMENT extras EMPTY>
+    <!ELEMENT cintaVideos (cintaVideo+)>
+    <!ELEMENT cintaVideo (formato, rebobinado)>
+    <!ELEMENT formato (#PCDATA)>
+    <!ELEMENT rebobinado (#PCDATA)>
+]>
+<documento>
+    <facturas>
+        <dato_clientes identificador="1234">
+            <DNI>12345678G</DNI>
+            <nombre>Manolo</nombre>
+            <apellido>Fuentevera</apellido>
+            <apellido>Mineral</apellido>
+            <telefono>687654345</telefono>
+        </dato_clientes>
+        <datos_ticket>
+            <resguardo_factura>
+                <forma_pago>Tarjeta</forma_pago>
+                <importe_total>500</importe_total>
+            </resguardo_factura>
+            <alquileres fecha_devolucion="9/7/2002">
+                <peliculas id_peliculas="566" valoracion="8">
+                    <titulo>Los hombres de Paco</titulo>
+                    <genero>comedia</genero>
+                    <duracion>2horas</duracion>
+                    <actores>
+                        <actor>
+                            <nombreActor>Ana</nombreActor>
+                            <apellido>Fuente</apellido>
+                            <apellido>Romero</apellido>
+                        </actor>
+                        <actor>
+                            <nombreActor>Rafael</nombreActor>
+                            <apellido>Loza</apellido>
+                            <apellido>Paredes</apellido>
+                        </actor>
+                        <actor>
+                            <nombreActor>Antonio</nombreActor>
+                            <apellido>Fuente</apellido>
+                            <apellido>Lajara</apellido>
+                        </actor>
+                    </actores>
+                </peliculas>
+            </alquileres>
+            <compras>
+                <DVDs>
+                    <DVD>
+                        <tituloDVD>Hola</tituloDVD>
+                        <fecha_salida>3/03/98</fecha_salida>
+                        <extras></extras>
+                    </DVD>  
+                </DVDs>
+            </compras>
+        </datos_ticket>
+    </facturas>
+    <facturas>
+        <dato_clientes identificador="33421">
+            <DNI>123409878W</DNI>
+            <nombre>Antonio</nombre>
+            <apellido>Castellano</apellido>
+            <apellido>Leon</apellido>
+            <telefono>678923432</telefono>
+        </dato_clientes>
+        <datos_ticket>
+            <resguardo_factura>
+                <forma_pago>Efectivo</forma_pago>
+                <importe_total>100</importe_total>
+            </resguardo_factura>
+            <alquileres fecha_devolucion="09/07/2022">
+                <peliculas id_peliculas="678" valoracion="4">
+                    <titulo>En tiempos de guerra...</titulo>
+                    <genero>comedia</genero>
+                    <duracion>1,30horas</duracion>
+                    <actores>
+                        <actor>
+                            <nombreActor>Toni</nombreActor>
+                            <apellido>Villa</apellido>
+                            <apellido></apellido>
+                        </actor>
+                        <actor>
+                            <nombreActor>Miguel</nombreActor>
+                            <apellido>Torre</apellido>
+                            <apellido>Sanchez</apellido>
+                        </actor>
+                        <actor>
+                            <nombreActor>Elena</nombreActor>
+                            <apellido>Toro</apellido>
+                            <apellido></apellido>
+                        </actor>
+                    </actores>
+                </peliculas>
+            </alquileres>
+            <compras>
+                <cintaVideos>
+                    <cintaVideo>
+                        <formato>VHS</formato>
+                        <rebobinado>no</rebobinado> 
+                    </cintaVideo>
+                </cintaVideos>
+        </compras>
+        </datos_ticket>
+    </facturas>
+</documento>

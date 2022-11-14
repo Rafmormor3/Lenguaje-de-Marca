@@ -1,0 +1,11 @@
+<musicos>
+    <musico>
+        <nombre>Antonio Vivaldi</nombre><!-- añadimos / para el cierre-->
+        <apodo>El cura pelirrojo</apodo><!-- añadimos / para el cierre-->
+        <fechaNacimiento>4 de marzo de 1678</fechaNacimiento><!-- añadimos / para el cierre-->
+    </musico><!-- tabulamos al mismo nivel que la etiqueta de apertura-->
+    <musico>
+        <nombre>Johann Sebastian Bach</nombre>><!-- añadimos / para el cierre-->
+        <apodo>El viejo peluca</apodo><!-- cambiamos la etiqueta de cierre por la de apertura-->
+    </musico>
+</musicos><!-- añadimos etiqueta de cierre para el elemento raiz-->

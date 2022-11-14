@@ -1,0 +1,14 @@
+1) Un programa es un conjunto de instrucciones que le damos al ordenador para solucionar problemas. Para ello utilizamos 
+lenguajes de programación.
+
+2) Un intérprete es aquel que puede codificar y transformar el lenguaje fuente al lenguaje de máquina.
+El desarrollo de estas es el siguiente: Primero analizamos el problema, segundo, diseñamos el algoritmo para esolverlo,
+tercero, codificamos el algoritmo en un lenguaje de programación, por último, ejecutamos y validamos para ver si soluciona el
+problema.
+
+3) -No puede haber una etiqueta sin su cierre, las mayúsculas y minúsculas son diferentes, tiene que estar bien tabulado (bien
+anidado), debe contener elemento raiz, el nombre de las etiquetas tienen que cumplir unas normas.
+
+Alguna de estas normas son: no puede empezar por xml ó XMl, los atributos no pueden tener el mismo nombre, puede comtener números y 
+otros signos de puntuacion como -,_
+	

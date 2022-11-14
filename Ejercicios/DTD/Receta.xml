@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE receta [ 
+    <!ELEMENT receta (nombre,ingredientes,instrucciones) >
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT ingredientes (ingrediente+)>
+    <!ELEMENT ingrediente (#PCDATA)>
+    <!ELEMENT instrucciones (#PCDATA)>
+    <!ATTLIST receta numeroRaciones CDATA #IMPLIED>
+    <!ATTLIST receta dificultad (baja | media | alta) "media">
+    <!ATTLIST ingrediente cantidad CDATA #IMPLIED>
+    <!ATTLIST ingrediente unidad CDATA #IMPLIED>
+]>
+<receta numeroRaciones="2" dificultad="baja">
+    <nombre>Huevo Frito</nombre>
+    <ingredientes>
+        <ingrediente cantidad="1" unidad="unidad"> Huevo</ingrediente>
+        <ingrediente cantidad="" unidad=""> Sal</ingrediente>
+        <ingrediente cantidad="" unidad=""> Aceite</ingrediente>
+    </ingredientes>
+    <instrucciones>
+        Calentar el aceite en la sarten, 
+        verter el huevo en el aceite caliente, 
+        echar sal al huevo, sacarlo
+    </instrucciones>
+</receta>
+
+
+
+
+
+    

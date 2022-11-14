@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+    <persona>
+        <nombre>Ricardo Borriquero</nombre>
+        <telf>123456</telf><!-- añadimos etiqueta de apertura y movemos la etiqueta de cierre al final-->
+    </persona>
+    <persona>
+        <nombre>Pepa Pig</nombre><!-- añadimos / y quitamos el espacio-->
+        <telg></telg><!-- cambiamos el nombre persona por telf para que sea su etiqueta de cierre-->
+    </persona>
+    <persona>
+        <nombre apodo="sirenita">Ariel</nombre><!-- añadimos "" al atributo y cambiamos el nombre apodo por nombre en la etiqueta de cierre-->
+    </persona>
+    
+</agenda><!-- añadimos /-->

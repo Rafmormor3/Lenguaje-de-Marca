@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tabla>
+    <comunidad nombre="Asturias">
+        <varon>
+            <desempleados>38218</desempleados>
+            <prestacionMediaAnual>4204</prestacionMediaAnual>
+        </varon>
+        <mujer>
+            <desempleadas>35272</desempleadas>
+            <prestacionMediaAnual>3461</prestacionMediaAnual>
+        </mujer>
+        <BG>17,67</BG>
+    </comunidad>
+    <comunidad nombre="Melilla">
+        <varon>
+            <desempleados>3332</desempleados>
+            <prestacionMediaAnual>3586</prestacionMediaAnual>
+        </varon>
+        <mujer>
+            <desempleadas>3481</desempleadas>
+            <prestacionMediaAnual>3017</prestacionMediaAnual>
+        </mujer>
+        <BG>15,87</BG>
+    </comunidad>
+    <comunidad nombre="Ceuta">
+        <varon>
+            <desempleados>4130</desempleados>
+            <prestacionMediaAnual>3600</prestacionMediaAnual>
+        </varon>
+        <mujer>
+            <desempleadas>4350</desempleadas>
+            <prestacionMediaAnual>3095</prestacionMediaAnual>
+        </mujer>
+        <BG>14,67</BG>
+    </comunidad>
+    <comunidad nombre="Galicia">
+        <varon>
+            <desempleados>107500</desempleados>
+            <prestacionMediaAnual>3888</prestacionMediaAnual>
+        </varon>
+        <mujer>
+            <desempleadas>111489</desempleadas>
+            <prestacionMediaAnual>3398</prestacionMediaAnual>
+        </mujer>
+        <BG>12,57</BG>
+    </comunidad>
+    <comunidad nombre="Cantabria">
+        <varon>
+            <desempleados>26450</desempleados>
+            <prestacionMediaAnual>3800</prestacionMediaAnual>
+        </varon>
+        <mujer>
+            <desempleadas>25300</desempleadas>
+            <prestacionMediaAnual>3340</prestacionMediaAnual>
+        </mujer>
+        <BG>12,01</BG>
+    </comunidad>
+    <comunidad nombre="Castilla y Leon">
+        <varon>
+            <desempleados>93450</desempleados>
+            <prestacionMediaAnual>3750</prestacionMediaAnual>
+        </varon>
+        <mujer>
+            <desempleadas>57833</desempleadas>
+            <prestacionMediaAnual>3085</prestacionMediaAnual>
+        </mujer>
+        <BG>20,85</BG>
+    </comunidad>
+    <comunidad nombre="Madrid">
+        <varon>
+            <desempleados>38218</desempleados>
+            <prestacionMediaAnual>4204</prestacionMediaAnual>
+        </varon>
+        <mujer>
+            <desempleadas>35272</desempleadas>
+            <prestacionMediaAnual>3461</prestacionMediaAnual>
+        </mujer>
+        <BG>17,67</BG>
+    </comunidad>
+    <comunidad nombre="Aragon">
+        <varon>
+            <desempleados>38218</desempleados>
+            <prestacionMediaAnual>4204</prestacionMediaAnual>
+        </varon>
+        <mujer>
+            <desempleadas>35272</desempleadas>
+            <prestacionMediaAnual>3461</prestacionMediaAnual>
+        </mujer>
+        <BG>17,67</BG>
+    </comunidad>
+    <comunidad nombre="Castilla La Mancha">
+        <varon>
+            <desempleados>38218</desempleados>
+            <prestacionMediaAnual>4204</prestacionMediaAnual>
+        </varon>
+        <mujer>
+            <desempleadas>35272</desempleadas>
+            <prestacionMediaAnual>3461</prestacionMediaAnual>
+        </mujer>
+        <BG>17,67</BG>
+    </comunidad>
+    <comunidad nombre="Valencia">
+        <varon>
+            <desempleados>38218</desempleados>
+            <prestacionMediaAnual>4204</prestacionMediaAnual>
+        </varon>
+        <mujer>
+            <desempleadas>35272</desempleadas>
+            <prestacionMediaAnual>3461</prestacionMediaAnual>
+        </mujer>
+        <BG>17,67</BG>
+    </comunidad>
+    <comunidad nombre="Canarias">
+        <varon>
+            <desempleados>38218</desempleados>
+            <prestacionMediaAnual>4204</prestacionMediaAnual>
+        </varon>
+        <mujer>
+            <desempleadas>35272</desempleadas>
+            <prestacionMediaAnual>3461</prestacionMediaAnual>
+        </mujer>
+        <BG>17,67</BG>
+    </comunidad>
+    <comunidad nombre="Murcia">
+        <varon>
+            <desempleados>38218</desempleados>
+            <prestacionMediaAnual>4204</prestacionMediaAnual>
+        </varon>
+        <mujer>
+            <desempleadas>35272</desempleadas>
+            <prestacionMediaAnual>3461</prestacionMediaAnual>
+        </mujer>
+        <BG>17,67</BG>
+    </comunidad>
+    <total>
+        <varon>
+            <desempleados>2137344</desempleados>
+            <prestacionMediaAnual>3805</prestacionMediaAnual>
+        </varon>
+        <mujer>
+            <desempleadas>2149500</desempleadas>
+            <prestacionMediaAnual>3520</prestacionMediaAnual>
+        </mujer>
+        <BG>7,44</BG>
+    </total>
+</tabla>
