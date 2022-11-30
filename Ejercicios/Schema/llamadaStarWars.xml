@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<peliculas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="starWarsSch.xsd">
+    <pelicula>
+        <titulo>Star Wars: Capitulo IV</titulo>
+        <estreno>1999</estreno>
+    </pelicula>
+    <pelicula>
+        <titulo>Star Wars: Capitulo III</titulo>
+        <estreno>2010</estreno>
+    </pelicula>
+</peliculas>

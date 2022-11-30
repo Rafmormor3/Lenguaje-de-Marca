@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE peliculas [
+    <!ELEMENT peliculas (pelicula+) >
+    <!ELEMENT pelicula (titulo, estreno) >
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT estreno (#PCDATA)>
+]>
+<peliculas>
+    <pelicula>
+        <titulo>Star Wars: Episodio IV</titulo>
+        <estreno>1987</estreno>
+    </pelicula>
+</peliculas>

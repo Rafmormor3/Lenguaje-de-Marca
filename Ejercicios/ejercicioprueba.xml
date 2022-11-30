@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Aeropuerto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejercicioSchema.xsd">
+<nombre>ra</nombre>
+<fecha>2013-12-20</fecha>
+<vuelos>
+    <vuelo codigo="V123" estados="E">
+        <diario></diario>
+        <origen></origen>
+        <destino></destino>
+        <hora-salida>10:15:00</hora-salida>
+        <hora-llegada>10:15:00</hora-llegada>
+    </vuelo>
+</vuelos>
+</Aeropuerto>
+   

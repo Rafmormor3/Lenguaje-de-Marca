@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<heladeria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation="heladeria.xsd">
+<heladeria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="heladeria.xsd">
     <helado fabricacion="2015-01-30">
         <chocolate>250</chocolate>
         <turron>400</turron>
