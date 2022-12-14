@@ -1,0 +1,23 @@
+{
+    "nombre":"Huevos Fritos",
+    "numeroRaciones":1,
+    "difcultad":"facil",
+    "ingredientes":[
+        {
+            "ingrediente":"Huevo",
+            "cantidad":1,
+            "unidadCantidades":"unidad"
+        },
+        {
+            "ingrediente":"Sal",
+            "cantidad":null,
+            "unidadCantidades":"gramos"
+        },
+        {
+            "ingrediente":"Aceite",
+            "cantidad":null,
+            "unidadCantidades":"litros" 
+        }
+    ],
+    "instrucciones":"Calentar el aceite en la sarten, verter el huevo en el aceite caliente, echar sal al huevo, sacarlo"
+}

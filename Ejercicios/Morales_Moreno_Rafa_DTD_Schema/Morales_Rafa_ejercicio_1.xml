@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE alumnos[
+<!ELEMENT alumnos (alumno)*>
+<!ELEMENT alumno (datos,comentario*, notas)>
+    <!ATTLIST alumno ID CDATA #REQUIRED>
+
+<!ELEMENT datos (nombre, apellidos, domicilio, telefono*, equipo?, aficiones*, origen, sexo?)>
+<!ELEMENT nombre (#PCDATA)> 
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT domicilio (#PCDATA)>
+<!ELEMENT telefono  (propio | madre | padre | tutor)>
+    <!ELEMENT propio (#PCDATA)>
+    <!ELEMENT madre (#PCDATA)>
+    <!ELEMENT padre (#PCDATA)>
+    <!ELEMENT tutor (#PCDATA)>
+<!ELEMENT equipo (#PCDATA)>
+<!ELEMENT aficiones (#PCDATA)>
+<!ELEMENT origen (español|pais)>
+<!ELEMENT español (provincia)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT sexo (hombre|mujer)>
+
+<!ELEMENT comentario (#PCDATA)>
+
+<!ELEMENT notas (evaluacion, calificacion)+>
+<!ELEMENT evaluacion (#PCDATA)>
+<!ELEMENT calificacion (#PCDATA)>
+]>
+<alumnos>
+    <alumno ID="A123">
+        <datos>
+            <nombre>Antonio</nombre>
+            <apellidos>Romero Morilla</apellidos>
+            <domicilio>Calle Real</domicilio>
+            <telefono><madre></madre></telefono>
+            <origen>
+                <español>
+                    <provincia>Sevilla</provincia>
+                </español>
+            </origen>
+        </datos>
+        <comentario>Buenas notas</comentario>
+        <notas>
+            <evaluacion>Puede hacerlo mejor</evaluacion>
+            <calificacion>6</calificacion>
+            <evaluacion>Perfecto</evaluacion>
+            <calificacion>10</calificacion>
+        </notas>
+        
+    </alumno>
+</alumnos>

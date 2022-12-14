@@ -1,0 +1,25 @@
+{
+        "remitente":{
+            "nombre":"Alfredo",
+            "emial":"alfredo@gmail.com"
+        },
+        "destinatario":{
+            "nombre":"Maria",
+            "email":"maria@gmail.com"
+        },
+        "asunto":"Pelicula",
+        "texto":[
+            {
+              "parrafo":"Necesito saber la hora de la pelicula"  
+            },
+            {
+                "parrafo":"Tengo que hacer unos recados"
+            },
+            {
+                "parrafos":"Contestame cuando puedas."
+            }
+        ]         
+}
+
+ 
+        

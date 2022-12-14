@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="registro">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="alumno">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="nombreAlumno" type="xs:string"></xs:element>
+                        <xs:element name="fechaPrueba" type="xs:string"></xs:element>
+                        <xs:element name="nota">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:integer">
+                                    <xs:minInclusive value="0"></xs:minInclusive>
+                                    <xs:maxInclusive value="10"></xs:maxInclusive>
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="observaciones" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="observacion" maxOccurs="unbounded">
+                                        <xs:complexType>
+                                            <xs:sequence>
+                                                <xs:element name="tipo">
+                                                    <xs:simpleType>
+                                                        <xs:restriction base="xs:string">
+                                                            <xs:enumeration value="trabaja"></xs:enumeration>
+                                                            <xs:enumeration value="participa"></xs:enumeration>
+                                                            <xs:enumeration value="asistencia"></xs:enumeration>
+                                                        </xs:restriction>
+                                                    </xs:simpleType>
+                                                </xs:element>
+                                                <xs:element name="categoria">
+                                                    <xs:simpleType>
+                                                        <xs:restriction base="xs:string">
+                                                            <xs:enumeration value="mucho"></xs:enumeration>
+                                                            <xs:enumeration value="medio"></xs:enumeration>
+                                                            <xs:enumeration value="poco"></xs:enumeration>
+                                                        </xs:restriction>
+                                                    </xs:simpleType>
+                                                </xs:element>
+                                            </xs:sequence>
+                                        </xs:complexType>
+                                    </xs:element>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>

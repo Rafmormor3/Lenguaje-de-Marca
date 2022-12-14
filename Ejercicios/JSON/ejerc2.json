@@ -1,0 +1,36 @@
+{
+    "nombreEquipo":"Los Angeles Lackers",
+    "colorEquipacion":"Purpura y oro",
+    "nombreEstadio":"Staples Center",
+    "nombreEntrenador":"Phil Jackson",
+    "indicadorPlantillaHistorica":true,
+    "disponibilidadPaginaWeb":false,
+    "bases":[
+        {
+            "nombre":"Magic Jonhson",
+            "dorsal":32
+        },
+        {
+            "nombre":"Jerry West",
+            "dorsal":44
+        }
+    ],   
+
+    "alero":[
+        {
+            "nombre":"James Worty",
+            "dorsal":42
+        },
+        {
+            "nombre":"Kobe Bryan",
+            "dorsal":8
+        }
+    ],
+
+    "pivote":[
+        {
+            "nombre":"Kaarem Abdul",
+            "dorsal":33
+        }
+    ]
+}

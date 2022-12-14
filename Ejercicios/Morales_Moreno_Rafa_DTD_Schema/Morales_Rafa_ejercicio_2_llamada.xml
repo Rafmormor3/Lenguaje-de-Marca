@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registro xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Morales_Rafa_ejercicio_2_Sch.xsd">
+<alumno>
+    <nombreAlumno>Rafa</nombreAlumno>
+    <fechaPrueba>1/12/22</fechaPrueba>
+    <nota>10</nota>
+    <observaciones>
+        <observacion>
+              <tipo>asistencia</tipo>
+            <categoria>mucho</categoria>
+        </observacion>
+        <observacion>
+            <tipo>trabaja</tipo>
+            <categoria>medio</categoria>
+        </observacion>
+    </observaciones>
+</alumno>
+</registro>

@@ -1,0 +1,15 @@
+[
+    {
+        "nombre":"Vistete",
+        "direccion":"c/Sevilla",
+        "distribuidor":null,
+        "movil":[
+            {
+                "numero":955678902,
+                "codigoModelo":null,
+                "marca":"Xiaomi",
+                "caracteristicas":null
+            }
+        ]
+    }
+]

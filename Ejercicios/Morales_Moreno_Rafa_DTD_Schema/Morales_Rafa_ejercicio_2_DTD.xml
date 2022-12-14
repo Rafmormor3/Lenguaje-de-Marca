@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE registro [
+<!ELEMENT registro (alumno)*>
+<!ELEMENT alumno (nombre, fecha, nota, observaciones)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT nota (#PCDATA)>
+<!ELEMENT observaciones (observacion)*>
+<!ELEMENT observacion (tipo, categoria)>
+<!ELEMENT tipo (trabaja | participa | asistencia)+>
+<!ELEMENT trabaja (#PCDATA)>
+<!ELEMENT participa (#PCDATA)>
+<!ELEMENT asistencia (#PCDATA)>
+<!ELEMENT categoria (mucho | medio | poco)>
+<!ELEMENT mucho (#PCDATA)>
+<!ELEMENT medio (#PCDATA)>
+<!ELEMENT poco (#PCDATA)>
+]>
+<registro>
+    <alumno>
+        <nombre>Rafa</nombre>
+        <fecha>01/12/2022</fecha>
+        <nota>7</nota>
+        <observaciones>
+            <observacion>
+                <tipo><trabaja></trabaja></tipo>
+                <categoria><medio></medio></categoria>
+            </observacion>
+        </observaciones>
+    </alumno>
+    <alumno>
+        <nombre>Manolo</nombre>
+        <fecha>01/12/2022</fecha>
+        <nota>10</nota>
+        <observaciones>
+            <observacion>
+                <tipo><trabaja></trabaja></tipo>
+                <categoria><medio></medio></categoria>
+            </observacion>
+        </observaciones>
+    </alumno>
+</registro>

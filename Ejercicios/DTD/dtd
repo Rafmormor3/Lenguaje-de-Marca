@@ -1,0 +1,62 @@
+DTD dentro del XML
+<!DOCTYPE nombre_raiz[
+<!ELEMENT nombre_etiqueta(hijo1, hijo2)>
+<!ELEMENT hijo1 EMPTY)>
+<!ELEMENT hijo2 (#PCDATA)>
+		<!ATTLIST hijo2 nombre_atributo CDATA #REQUIRED>
+		<!ATTLIST hijo2 nombre_atributo  ID #IMPLIED>
+<!ATTLIST hijo2 nombre_atributo CDATA “valor”>
+<!ATTLIST hijo2 nombre_atributo CDATA #FIXED “valor”>
+	]>
+
+    atributos
+*REQUIRED = tiene que estar por obligacion
+*IMPLIED = puede que esté o puede que no
+*#FIXED “valor! = valor fijo
+*”valor”= valor por defecto
+*ID es para los valores id
+
+	etiquetas
+*EMPTY=tiene que aparecer la etiqueta en el XML pero puede estar vacia
+
+
+?=opcional(1,0)
+*=(0,n)
++=tiene que aparecer obligatoriamente (1,n)
+|=puedes elegir entre pero no los 2
+
+ESCHEMA Fuera del XML
+	<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+		<xs:element name="nombre_raiz">
+			<xs:attribute name="dni" type="xs:string"></xs:attribute>
+</xs:element>
+</xs:schema>
+		
+
+despues de un element va un simpleType cuando es solo 1 etiqueta dentro
+despues de un elemen va un complexType cuando lo que contiene es mas de 1 etiqueta y se le añade un sequence
+
+*dentro del xs:element entran el minOccurs=”0” o manOccurs=”10”
+							el maximo de veces que aparece
+					el minimo de veces que aparece
+(EJEMPLO=<xs:element name="telefono" type="xs:integer" minOccurs="0" maxOccurs="5"></xs:element>)
+
+dentro puede ir un xs:choice cuando tienes que elegir entre etiquetas(ya declaradas)
+
+puede ir un xs:restriction con su base=”xs:string/date/integer/float”
+	<xs:pattern value="[0-9]{8}[a-z]"></xs:pattern>
+	<xs:minInclusive value="0"></xs:minInclusive>
+            <xs:maxInclusive value="500"></xs:maxInclusive>
+	<xs:enumeration> especifica una lista de valores admitidos
+		<xs:restriction base="xs:string">
+<xs:enumeration value="verde"/>
+<xs:enumeration value="amarillo"/>
+<xs:enumeration value="rojo"/>
+</xs:restriction>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<nombre_raiz 
+    xmlns:xsi="http://www.w3.org/2001/XMLShema-instance" 
+    xsi:noNamespaceSchemaLocation="nombre_schema_externo.xsd">
+</nombre_raiz>

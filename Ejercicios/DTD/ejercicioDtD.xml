@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE videoclub [
+<!ELEMENT videoclub (facturas*)>
+
+<!ELEMENT facturas (datosCliente, datosTickets)>
+
+<!ELEMENT datosCliente (nombre, apellido1, apellido2, dni, telefono)>
+    <!ATTLIST datosCliente id CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido1 (#PCDATA)>
+<!ELEMENT apellido2 (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+
+<!ELEMENT datosTickets (resguardoFactura,(alquiler | compra | (alquiler, compra)))>
+<!ELEMENT resguardoFactura (formaPago, importeTotal)>
+<!ELEMENT formaPago (#PCDATA)>
+<!ELEMENT importeTotal (#PCDATA)>
+
+<!ELEMENT alquiler (pelicula)>
+    <!ATTLIST alquiler fechaDev CDATA #REQUIRED>
+
+<!ELEMENT pelicula (titulo, genero, duracion, nombre_actor, apellido_actor, nombre_actor, apellido_actor, nombre_actor, apellido_actor)> 
+    <!ATTLIST pelicula idPeli CDATA #REQUIRED>
+    <!ATTLIST pelicula valoracion CDATA #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT nombre_actor (#PCDATA)>
+<!ELEMENT apellido_actor (#PCDATA)>
+
+<!ELEMENT compra (DVD, cinta)>
+<!ELEMENT DVD (tituloDVD, fechaSalida, extras)>
+<!ELEMENT tituloDVD (#PCDATA)>
+<!ELEMENT fechaSalida (#PCDATA)>
+<!ELEMENT extras (#PCDATA)>
+<!ELEMENT cinta (formato, rebobinado)>
+<!ELEMENT formato (#PCDATA)>
+<!ELEMENT rebobinado (#PCDATA)>
+]>
+<videoclub>
+    <facturas>
+        <datosCliente id="123">
+            <nombre></nombre>
+            <apellido1></apellido1>
+            <apellido2></apellido2>
+            <dni></dni>
+            <telefono></telefono>
+        </datosCliente>
+        <datosTickets>
+            <resguardoFactura>
+                <formaPago></formaPago>
+                <importeTotal></importeTotal>
+            </resguardoFactura>
+            <alquiler fechaDev="34">
+                <pelicula idPeli="12" valoracion="5">
+                    <titulo></titulo>
+                    <genero></genero>
+                    <duracion></duracion>
+                    <nombre_actor></nombre_actor>
+                    <apellido_actor></apellido_actor>
+                    <nombre_actor></nombre_actor>
+                    <apellido_actor></apellido_actor>
+                    <nombre_actor></nombre_actor>
+                    <apellido_actor></apellido_actor>
+                </pelicula>
+            </alquiler>
+        </datosTickets>
+    </facturas>
+</videoclub>

@@ -1,0 +1,9 @@
+{
+    "nombrePedido":"Bicicleta",
+    "referenciaPedido":"A2023",
+    "destinatario":"Juan Delgado Martinez",
+    "direccionEntrega":"calle Barco 4, tercer piso, letra A",
+    "diaEntrega":19,
+    "mesEntrega":5,
+    "anyoEntrega":2000
+}

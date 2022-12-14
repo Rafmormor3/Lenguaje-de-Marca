@@ -1,0 +1,12 @@
+[
+    {
+        "bicicleta":{
+            "velocidad":"100 km/h"
+        }
+    },
+    {
+        "patinete":{
+            "velocidadMaxima":"50 km/h"
+        }
+    }
+]

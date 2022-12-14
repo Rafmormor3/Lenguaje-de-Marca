@@ -1,0 +1,15 @@
+[
+    {
+        "nombrePrograma":"Firefox",
+        "licencia":"GPL",
+        "licenia2":"MPL"
+    },
+    {
+        "nombrePrograma":"OpenOffice.org",
+        "licencia":"LGPL"
+    },
+    {
+        "nombrePrograma":"Inkscape",
+        "licencia":"GPL"
+    }
+]

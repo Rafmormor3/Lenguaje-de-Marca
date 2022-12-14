@@ -1,0 +1,29 @@
+[
+    {
+        "uno":{
+            "letra":"u",
+            "letra1":"n",
+            "letra2":"o",
+            "valor":1
+        }
+    },
+    {
+        "dos":{
+            "letra":"d",
+            "letra1":"o",
+            "letra2":"s",
+            "valor":2
+        }
+    },
+    {
+        "seis":{
+            "letra":"s",
+            "letra1":"e",
+            "letra2":"i",
+            "letra4":"s",
+            "valor":6
+        }
+
+    }
+    
+]
