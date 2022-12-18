@@ -1,5 +1,6 @@
 {
-    "consolas" : [
+    "consolas" : 
+    [
         {
             "nombre" : "Xbox Series",
             "fabricante" : "Microsoft",

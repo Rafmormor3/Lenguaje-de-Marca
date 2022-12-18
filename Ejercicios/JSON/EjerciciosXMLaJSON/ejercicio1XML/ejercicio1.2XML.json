@@ -1,26 +1,22 @@
 [
     {
-        "uno":{
-            "letra":"u",
-            "letra1":"n",
-            "letra2":"o",
+        "uno":
+        {
+            "letras":["u","n","o"],
             "valor":1
         }
     },
     {
-        "dos":{
-            "letra":"d",
-            "letra1":"o",
-            "letra2":"s",
+        "dos":
+        {
+            "letras":["d","o","s"],
             "valor":2
         }
     },
     {
-        "seis":{
-            "letra":"s",
-            "letra1":"e",
-            "letra2":"i",
-            "letra4":"s",
+        "seis":
+        {
+            "letras":["s","e","i","s"],
             "valor":6
         }
 

@@ -1,9 +1,11 @@
 [
     {
-        "pais":{
+        "pais":
+        {
             "pais":"España"
         },
-        "fecha":{
+        "fecha":
+        {
             "fecha":1982
         }
     }

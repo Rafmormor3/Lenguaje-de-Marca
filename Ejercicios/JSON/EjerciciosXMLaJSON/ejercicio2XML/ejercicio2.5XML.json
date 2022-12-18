@@ -1,8 +1,7 @@
 [
     {
         "nombrePrograma":"Firefox",
-        "licencia":"GPL",
-        "licenia2":"MPL"
+        "licencias":["GPL","MPL"]
     },
     {
         "nombrePrograma":"OpenOffice.org",

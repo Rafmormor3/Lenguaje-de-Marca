@@ -5,7 +5,8 @@
     "nombreEntrenador":"Phil Jackson",
     "indicadorPlantillaHistorica":true,
     "disponibilidadPaginaWeb":false,
-    "bases":[
+    "bases":
+    [
         {
             "nombre":"Magic Jonhson",
             "dorsal":32
@@ -16,7 +17,8 @@
         }
     ],   
 
-    "alero":[
+    "alero":
+    [
         {
             "nombre":"James Worty",
             "dorsal":42

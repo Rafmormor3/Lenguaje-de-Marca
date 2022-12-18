@@ -1,14 +1,17 @@
 {
-    "remitente":{
+    "remitente":
+    {
         "nombre":"Rafael Morales Moreno",
         "correo":"rafamorales@gmial.com"
     },
-    "destinatario":{
+    "destinatario":
+    {
         "nombre":"Pedro Benito",
         "correo":"pedrobenito@gmail.com"
     },
     "asunto":"Entradas partido",
-    "cuerpo":{
+    "cuerpo":
+    {
         "parrafo":"Hemos conseguido entradas para el partido de hoy",
         "parrafo1":"Debes adjuntarme foto del dni para hacer la compra"
     }

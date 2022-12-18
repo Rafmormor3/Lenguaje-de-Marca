@@ -2,7 +2,8 @@
     {
         "pais":"España",
         "continente":"Europa",
-        "capital":{
+        "capital":
+        {
             "nombre":"Madrid"
         }
     }
