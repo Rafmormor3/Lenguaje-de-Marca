@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <h2>Formulario estructurado</h2>
+   <form action="https://iesjacaranda.es/lmsgi/resultado.php" method="get">
+        <p>Nombre<br>
+            <input type="text" maxlength="30" name="nombre">
+        </p>
+        <p>Apellidos<br>
+            <input type="text" maxlength="80" name="apellidos">
+        </p>
+        <p>Contrasen&tilde;a<br>
+            <input type="password" maxlength="10" name="contrasenna">
+        </p>
+        <p>DNI<br>
+            <input type="text" pattern="^{0-1}[8]{A-Z}[1]$" name="dni">
+        </p>
+        <p>Sexo<br>
+            <input type="radio" value="h" name="hombre">Hombre<br>
+            <input type="radio" value="m" name="mujer">Mujer
+        </p><br>
+        <p>Incluir mi foto <input type="file" name="foto"></p>
+        <p><input type="checkbox" name="sub" value="1" checked>Suscribirme al boletin de novedades.</p>
+        <p>
+            <input type="submit" value="Guardar Cambios">
+            <input type="reset" value="Borrar">
+        </p>
+   </form> 
+</body>

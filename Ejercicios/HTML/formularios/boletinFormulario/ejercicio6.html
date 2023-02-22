@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title>Ejercicio 6</title>
+</head>
+<body>
+    <form action="https://iesjacaranda.es/lmsgi/resultado.php" method="get">
+        <fieldset>
+            <legend>Datos b&aacute;sicos</legend>
+            <p>Nombre<br>
+                <input type="text" name="name">
+            </p>
+            <p>Descripci&oacute;n<br>
+                <textarea name="texto"></textarea>
+            </p>
+            <p>Incluir mi foto <input type="file" name="foto"></p>
+            <p><input type="checkbox" name="contador">Añadir contador de visitas</p>
+        </fieldset>
+        <fieldset>
+            <legend>Datos de econ&oacute;micos</legend>
+            <p>
+                Precio<input type="number" name="precio">€       
+                Impuestos
+                <select name="menu">
+                    <option value="1">4%</option>
+                    <option value="2">7%</option>
+                    <option value="3">16%</option>
+                    <option value="4">25%</option>
+                </select>
+            </p>
+            <p>Promoci&oacute;n<br>
+                <input type="radio" name="p" value="1">Ninguno<br>
+                <input type="radio" name="p" value="2">Transporte Gratuito<br>
+                <input type="radio" name="p" value="3">Descuento 5%
+            </p>
+            
+        </fieldset><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>

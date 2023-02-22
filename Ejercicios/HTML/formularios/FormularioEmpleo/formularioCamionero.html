@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title>Formulario puesto Camionero</title>
+</head>
+<body bgcolor="#FAEE5E">
+    <form action="https://iesjacaranda.es/lmsgi/resultado.php" method="get">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <p>Nombre: <input type="text" name="nombre"></p>
+            <p>Apellidos: <input type="text" name="nombre"></p>
+            <p>DNI: <input type="text" name="DNI"></p>
+            <p>Correo Electr&oacute;nico: <input type="email" name="correo"></p>
+            <p>Fecha de nacimiento: <input type="date" name="fecha"></p>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Experiencia</legend>
+                <p>Permisos de conducir que tenga:
+                    <select name="menu[]" size="5" multiple>
+                        <option value="1">C1</option>
+                        <option value="2">C</option>
+                        <option value="3">C1+E</option>
+                        <option value="4">C+E</option>
+                    </select>
+              </p>
+              <p>¿Ha conducido carga peligrosa?
+                <input type="radio" value="1" name="p">Si
+                <input type="radio" value="2" name="p">No
+              </p>
+              <p>
+                <textarea name="texto" rows="4" cols="40" placeholder="A&ntilde;ada su experiencia"></textarea>
+              </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <a href="anuncio.html"><input type="button" value="Volver Tabl&oacute;n Anuncios"></a>
+        </p>
+    </form>
+</body>

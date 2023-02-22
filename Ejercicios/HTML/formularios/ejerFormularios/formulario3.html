@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <title>Formulario 3 Clase</title>
+</head>
+<body>
+    <form action="https://iesjacaranda.es/lmsgi/resultado.php" method="get">
+        <fieldset>
+            <legend>Rellenar</legend>
+            <p>
+                <input type="radio" name="idioma" value="Ingles">Ingles<br>
+                <input type="radio" name="idioma" value="Aleman">Aleman<br>
+                <input type="radio" name="idioma" value="Frances">Frances
+            </p>
+            <p>
+                <select name="menu">
+                    <option>USB</option>
+                </select>
+            </p>
+            <p>
+                Nombre<input type="text" name="nombre"><br>
+                Apellidos<input type="text" name="Apellidos">
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Indique sus preferencias</legend>
+            <p>
+                <select name="menu" size="4">
+                    <option value="1">Hombre</option>
+                    <option value="2">Mujer</option>
+                </select>
+            </p>
+            <p>
+                <input type="checkbox" name="mujer" value="1">Mujer<br>
+                <input type="checkbox" name="hombre" value="2">Hombre
+            </p>
+            <p>
+                Elija una fecha:<input type="date" name="fecha">
+            </p>
+        </fieldset>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+</body>

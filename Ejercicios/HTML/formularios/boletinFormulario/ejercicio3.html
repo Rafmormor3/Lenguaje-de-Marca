@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <form action="https://iesjacaranda.es/lmsgi/resultado.php" method="get">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <p>Nombre<br>
+                <input type="text" name="name">
+            </p>
+            <p>Apellidos<br>
+                <input type="text" name="appe">
+            </p>
+            <p>Dni<br>
+                <input type="text" name="dni" pattern="^{0-1}[8]{A-Z}[1]$">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Datos de conexi&oacute;n</legend>
+            <p>Nombre de usuario<br>
+                <input type="text" name="id">
+            </p>
+            <p>Repite la contrase&ntilde;a<br>
+                <input type="password" name="psswd">
+            </p>
+            <p>Contrase&ntilde;a<br>
+                <input type="password" name="passwd2">
+            </p>
+        </fieldset><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>

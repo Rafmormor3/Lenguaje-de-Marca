@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title>Formulario puesto Programador</title>
+</head>
+<body bgcolor="#69F1C6">
+    <form action="https://iesjacaranda.es/lmsgi/resultado.php" method="get">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <p>Nombre: <input type="text" name="nombre"></p>
+            <p>Apellidos: <input type="text" name="nombre"></p>
+            <p>DNI: <input type="text" name="DNI"></p>
+            <p>Correo Electr&oacute;nico: <input type="email" name="correo"></p>
+            <p>Fecha de nacimiento: <input type="date" name="fecha"></p>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Experiencia</legend>
+                <p>Lenguajes Utilizados:
+                    <input type="checkbox" name="lenguaje">Java
+                    <input type="checkbox" name="lenguaje">Python
+                    <input type="checkbox" name="lenguaje">C++
+                    <input type="checkbox" name="lenguaje">HTML
+                    <input type="checkbox" name="lenguaje">C
+                    <input type="checkbox" name="lenguaje">JavaScript
+                </p>
+                <p>¿Has estado en alguna empresa de Desarrollo anteriormente? 
+                    <input type="radio" value="1" name="p">Si
+                    <input type="radio" value="2" name="p">No
+                </p>
+                <p>
+                    <textarea name="texto" rows="4" cols="40" placeholder="A&ntilde;ada su experiencia"></textarea>
+                </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <a href="anuncio.html"><input type="button" value="Volver Tabl&oacute;n Anuncios"></a>
+        </p>
+    </form>
+</body>
