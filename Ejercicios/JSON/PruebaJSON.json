@@ -1,0 +1,75 @@
+[
+    {
+        "titulo":"Avatar:el sentido del agua",
+        "tituloOriginal":"Avatar: The way of water",
+        "genero":"Ciencia Ficcion",
+        "duracion":"190 min",
+        "anio":2022,
+        "clasificacion":"+12",
+        "directores":["James Cameron"],
+        "actores":
+        [
+            {
+                "nombre":"Sam",
+                "apellido":"Worthington",
+                "espanyol":false
+            },
+            {
+                "nombre":"Zoe",
+                "apellido":"Saldana",
+                "espanyol":false
+            },
+            {
+                "nombre":"Sigourney",
+                "apellido":"Weaver",
+                "espanyol":false
+            },
+            {
+                "nombre":"Kate",
+                "apellido":"Winslet",
+                "espanyol":false
+            }
+        ],
+        "paginaWeb":"Avatar.com",
+        "cines":
+        [
+            {
+                "cine":"Los Arcos",
+                "horario":["17:15","17:30","18:00","18:15"]
+            },
+            {
+                "cine":"Yelmo",
+                "horario":["17:45","18:45","19:30","20:30"]
+            }
+        ]
+    },
+    {
+        "titulo":"El oro de Moscú",
+        "tituloOriginal":null,
+        "genero":"Comedia",
+        "duracion":108,
+        "anio":2002,
+        "clasificacion":"Sin calificar",
+        "directores":["Jesus Bonilla"],
+        "actores":
+        [
+            {
+                "nombre":"Jesus",
+                "apellido":"Bonilla",
+                "espanyol":true
+            },
+            {
+                "nombre":"Santiago",
+                "apellido":"Segura",
+                "espanyol":true
+            },
+            {
+                "nombre":"Alfredo",
+                "apellido":"Landa",
+                "espanyol":true
+            }
+        ],
+        "paginaWeb":false,
+        "cines":false
+    }
+]
